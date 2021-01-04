@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import "banner.css";
+@import "team.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.content {
+  margin-bottom: 2rem;
+}

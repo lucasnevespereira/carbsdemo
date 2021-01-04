@@ -1,0 +1,36 @@
+.c2a6 h1,
+.c2a6 h2,
+.c2a6 h3,
+.c2a6 h4,
+.c2a6 h5,
+.c2a6 h6 {
+  color: #3e4555;
+}
+
+.c2a6 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.c2a6 .btn-md {
+  padding: 15px 45px;
+  font-size: 16px;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #00917c;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+.cta-button:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.1);
+  transform: translate(0px, -10px) scale(1.1);
+}

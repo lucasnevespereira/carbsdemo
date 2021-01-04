@@ -1,0 +1,19 @@
+baseURL = "http://example.org/"
+title = "Carbs Demo"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 20
+
+    [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 20
+
+
+[params]
+logo = "images/logo-inline.png"
+logo_width = "200px"
+footer = "images/footer.jpeg"
