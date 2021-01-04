@@ -1,22 +1,22 @@
 ---
 title: "Association Carbs Demo"
-banner: "images/logo-inline.png"
+banner: ["images/footer.jpeg"]
 btnlabel: "En savoir plus"
 btnlink: "about"
 team:
   teamate1:
     name: Julien
-    image: ""
+    image: ["images/favicon.png"]
     email: vyreca3D@gmail.com
     description: "Je suis Julien"
   teamate2:
     name: François
-    image: ""
+    image: ["images/favicon.png"]
     email: vyreca3D@gmail.com
     description: "Je suis Francois"
   teamate3:
     name: Fabrice
-    image: ""
+    image: ["images/favicon.png"]
     email: vyreca3D@gmail.com
     description: "Je suis Fabrice"
   teamate4:
