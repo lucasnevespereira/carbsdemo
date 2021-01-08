@@ -110,11 +110,13 @@ school:
       icon: ion-folder
       info: Filiere en apprentissage
 contact:
+  title: "Nous Contacter"
+  description: "carbs.demo@gmail.com"
   map:
     '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2612.341670368149!2d1.4922691156829022!3d49.099149279311824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6c95bd9f52f49%3A0x944a4ed6ba61e11c!2s24%20Route%20de%20Magny%2C%2027200%20Vernon!5e0!3m2!1sfr!2sfr!4v1610118150659!5m2!1sfr!2sfr"
     frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"
     ></iframe>'
   form:
-    action: "https://usebasin.com/f/a125261bc44c"
+    action: https://usebasin.com/f/a125261bc44c
     btn_label: Envoyer
 ---

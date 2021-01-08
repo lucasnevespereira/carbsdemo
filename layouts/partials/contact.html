@@ -2,11 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="title">
-        <h2>Nous Contacter</h2>
-        <p>
-          Dantes remained confused and silent by this explanation of the <br />
-          thoughts which had unconsciously
-        </p>
+        <h2>{{.Params.contact.title}}</h2>
+        <p>{{.Params.contact.description}}</p>
       </div>
       <div class="col-md-6 col">
         <!-- map -->
@@ -27,7 +24,7 @@
         <!--/map-->
       </div>
       <div class="col-md-6">
-        <form action="{{.Params.form.action}}" method="POST">
+        <form action="{{.Params.contact.form.action}}" method="POST">
           <input type="text" class="form-control" required placeholder="Nom" />
           <input
             type="text"
