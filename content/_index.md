@@ -57,7 +57,7 @@ team:
 
       **_L’Énergie est aujourd’hui au cœur de toutes les interrogations politiques, financières et administratives."_**
   - name: Sequeira Thomas
-    image: images/team/team1.jpg
+    image: "/uploads/thomas.jpg"
     designation: Apprenti Ingénieur
     content: |-
       **Age : 22 ans**
