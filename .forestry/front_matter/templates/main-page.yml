@@ -1,0 +1,135 @@
+---
+label: Main Page
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: file
+    name: bg_image
+    label: bg_image
+  - type: text
+    name: bg_position
+    label: bg_position
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: about
+  label: about
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: questionnaire
+  label: questionnaire
+  fields:
+  - type: file
+    name: bg_image
+    label: bg_image
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: team
+  label: team
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: field_group_list
+    name: team_member
+    label: team_member
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: designation
+      label: designation
+    - type: text
+      name: content
+      label: content
+- type: field_group
+  name: school
+  label: school
+  fields:
+  - type: file
+    name: bg_image
+    label: bg_image
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+  - type: field_group_list
+    name: filiere
+    label: filiere
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: info
+      label: info
+- type: field_group
+  name: contact
+  label: contact
+  fields:
+  - type: textarea
+    name: map
+    label: map
+  - type: field_group
+    name: form
+    label: form
+    fields:
+    - type: text
+      name: action
+      label: action
+    - type: text
+      name: btn_label
+      label: btn_label
