@@ -75,10 +75,15 @@ team:
       **_J’ai choisi de continuer en école d’ingénieur pour aller plus loin dans mon domaine d’activité._**
 
       **_Je vois donc dans ce projet l’opportunité de m’ouvrir à de nouvelles compétences."_**
-  - name: Rui Santos
-    image: images/team/team1.jpg
-    designation: Administrador da Empresa
-    content: Lorem ipsum
+  - name: Custodio Joao Victor
+    image: "/uploads/custodio.jpg"
+    designation: Apprenti Ingénieur
+    content: |-
+      **Âge : 24 ans**
+
+      **Apprenti ingénieur mise au point des groupes motopropulseurs chez PSA Groupe et titulaire d’un BTS en moteurs à combustion interne avec plus de 2 ans d’expérience professionnelle dans le domaine.**
+
+      **_"Passionné de sport mécanique, je recherche toujours à améliorer mes performances et être le plus efficace possible pour relever les défis."_**
 school:
   bg_image: "/images/school.jpeg"
   title: L'ESSENTIEL DE L'ITII
