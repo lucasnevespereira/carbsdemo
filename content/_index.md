@@ -1,29 +1,34 @@
 ---
-title: "Association Carbs Demo"
-banner: ["images/footer.jpeg"]
-btnlabel: "En savoir plus"
-btnlink: "about"
+title: "Carbs Demo"
+banner:
+  bg_image: "/images/fuel.jpg"
+  bg_position: "right"
+  title: "Association Carbs Demo"
+  description: "Carbs Démo a pour objectif de sensibiliser la population à l’utilisation de carburant plus propre et plus vert pour la nature tel que le superéthanol E85"
+  button:
+    label: En savoir plus
+    link: "#features"
+about:
+  title: "À propos de nous"
+  content: "Carbs Démo a pour objectif de sensibiliser la population à l’utilisation de carburant plus propre et plus vert pour la nature tel que le superéthanol E85 afin de remplacer, à terme, l’utilisation des énergies fossiles. ​ Cela a de nombreux avantages, principalement son coût ! En effet, produit en France grâce à l'agriculture, le biocarburant est une excellente alternative pour sortir des énergies liées au pétrole, et donc de ne plus dépendre de son évolution tarifaire. ​ Pour ce faire, nous allons mettre en place un simulateur interactif. Sur deux écrans distincts apparaîtront les indicateurs importants liés, d’un côté, au bioéthanol, de l’autre au SP-95."
 team:
-  teamate1:
-    name: Julien
-    image: ["images/favicon.png"]
-    email: vyreca3D@gmail.com
-    description: "Je suis Julien"
-  teamate2:
-    name: François
-    image: ["images/favicon.png"]
-    email: vyreca3D@gmail.com
-    description: "Je suis Francois"
-  teamate3:
-    name: Fabrice
-    image: ["images/favicon.png"]
-    email: vyreca3D@gmail.com
-    description: "Je suis Fabrice"
-  teamate4:
-    name: Lucas
-    email: vyreca3D@gmail.com
-    description: "Je suis Lucas"
+  title: "Notre équipe"
+  description: "Nous sommes 4 étudiants"
+  team_member:
+    - name: "Rui Santos"
+      image: "images/team/team1.jpg"
+      designation: "Administrador da Empresa"
+      content: "Lorem ipsum"
+    - name: "Rui Santos"
+      image: "images/team/team1.jpg"
+      designation: "Administrador da Empresa"
+      content: "Lorem ipsum"
+    - name: "Rui Santos"
+      image: "images/team/team1.jpg"
+      designation: "Administrador da Empresa"
+      content: "Lorem ipsum"
+    - name: "Rui Santos"
+      image: "images/team/team1.jpg"
+      designation: "Administrador da Empresa"
+      content: "Lorem ipsum"
 ---
-
-Carbs Demo est une association créée par 4 étudiants de l'ITII Normandie, spécialité Efficacité Énergétique en alternance, en partenariat avec l'EICNAM Paris.
-L'objectif de cette association est la sensibilisation à la transition écologique et énergétique, et au Développement Durable à travers un biocarburant : le Superéthanol-E85.

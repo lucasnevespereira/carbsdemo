@@ -1,22 +1,38 @@
-<header class="sticky-top bg-white w-100">
+<header id="navigation" class="navbar-fixed-top animated-header">
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="{{ site.BaseURL }}">{{ if site.Params.logo }} <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" {{with site.Params.logo_width}}width="{{.}}"{{end}}> {{ else }} {{ site.Title }} {{ end }}</a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
-        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <div class="navbar-header">
+      <!-- responsive nav button -->
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target=".navbar-collapse"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
+      <!-- /responsive nav button -->
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav ml-auto">
-          {{ range site.Menus.main }}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-          </li>
-          {{ end }}
-        </ul>
+      <!-- logo -->
+      <h1 class="navbar-brand">
+        <a href="/"
+          ><img src="images/logo-inline.png" width="200" height="40" alt="logo"
+        /></a>
+      </h1>
+      <!-- /logo -->
+    </div>
 
-      </div>
+    <!-- main nav -->
+    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+      <ul id="nav" class="nav navbar-nav menu">
+        <!-- <li><a href="#top">Accueil</a></li> -->
+        <li><a href="#features">À propos</a></li>
+        <li><a href="#team">Équipe</a></li>
+        <li><a href="#contact-form">Contact</a></li>
+      </ul>
     </nav>
+    <!-- /main nav -->
   </div>
 </header>

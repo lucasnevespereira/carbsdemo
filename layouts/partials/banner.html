@@ -1,20 +1,23 @@
-<div class="py-5 c2a6">
+<section
+  id="banner"
+  style="background-image: url('{{.Params.banner.bg_image}}');"
+>
   <div class="container">
-    <!-- row  -->
-    <div class="row justify-content-center">
-      <div class="col-md-8 text-center">
-        <h3 class="mb-3">{{.Title}}</h3>
-        <h6 class="subtitle font-weight-normal text-justify">{{.Content}}</h6>
-        <a href="{{.Params.btnlink}}">
-          <div class="cta-button btn-md mt-3">{{.Params.btnlabel}}</div>
-        </a>
-      </div>
-      <div class="col-md-12 text-center mt-3">
-        <img src="{{.Params.banner}}" alt="banner" class="img-fluid" />
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .Params.banner.title }}</h1>
+          <h2>{{ .Params.banner.description }}</h2>
+          <div class="buttons">
+            <a href="{{.Params.banner.button.link}}" class="btn btn-learn"
+              >{{.Params.banner.button.label}}</a
+            >
+          </div>
+        </div>
       </div>
     </div>
-    <!-- row  -->
   </div>
-</div>
-
-<!-- https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/c2a/vectorecity.jpg -->
+  <div class="scrolldown">
+    <a id="scroll" href="#features" class="scroll"></a>
+  </div>
+</section>
