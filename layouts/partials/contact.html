@@ -25,20 +25,33 @@
       </div>
       <div class="col-md-6">
         <form action="{{.Params.contact.form.action}}" method="POST">
-          <input type="text" class="form-control" required placeholder="Nom" />
           <input
             type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            required
+            placeholder="Nom"
+          />
+          <input
+            type="text"
+            name="subject"
+            id="subject"
             class="form-control"
             required
             placeholder="Objet"
           />
           <input
-            type="text"
+            type="email"
+            name="email"
+            id="email"
             class="form-control"
             required
             placeholder="Email"
           />
           <textarea
+            name="message"
+            id="message"
             class="form-control"
             rows="3"
             placeholder="Message"
