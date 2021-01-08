@@ -21,7 +21,7 @@ about:
     apparaîtront les indicateurs importants liés, d’un côté, au bioéthanol, de l’autre
     au SP-95.
 questionnaire:
-  bg_image: "/images/fuel.jpg"
+  bg_image: "/uploads/fuel.jpg"
   title: Notre Questionnaire
   description: Pour débuter, je vous laisse répondre à notre mini questionnaire ci
     dessous.
