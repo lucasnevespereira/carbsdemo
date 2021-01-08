@@ -10,7 +10,7 @@
       {{ range .Params.school.filiere}}
       <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="block wow fadeInRight" data-wow-delay=".3s">
-          <i class="ion-folder"></i>
+          <i class="{{.icon}}"></i>
           <p class="count-text"><span class="counter-digit">{{.name}}</p>
             <p>{{.info}}</p>
         </div>
