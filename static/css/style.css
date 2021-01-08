@@ -393,7 +393,7 @@ header .navbar {
 
 @media (max-width: 768px) {
   #counter .block .count-text {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 }
 

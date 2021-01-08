@@ -1,21 +1,26 @@
-<section id="play-video">
+<section
+  id="play-video"
+  style="background-image: url('{{.Params.questionnaire.bg_image}}'); background-size: cover;"
+>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2 class="wow fadeInUp" data-wow-delay=".3s">Notre Questionnaire</h2>
+          <h2 class="wow fadeInUp" data-wow-delay=".3s">
+            {{.Params.questionnaire.title}}
+          </h2>
           <p class="wow fadeInUp" data-wow-delay=".5s">
-            Pour débuter, je vous laisse répondre à notre mini questionnaire ci
-            dessous.
+            {{.Params.questionnaire.description}}
           </p>
           <a
-            href=""
-            class="html5lightbox wow zoomIn questionnaire"
+            href="{{.Params.questionnaire.button.link}}"
+            target="_blank"
+            class="wow zoomIn questionnaire"
             data-width="800"
             data-height="400"
           >
             <div class="button wow zoomIn" data-wow-delay=".3s">
-              Questionnaire
+              {{.Params.questionnaire.button.label}}
             </div>
           </a>
         </div>

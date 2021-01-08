@@ -1,48 +1,28 @@
-<section id="counter">
+<section id="counter" style="background-image: url('{{.Params.school.bg_image}}');">
   <div class="container">
     <div class="row">
       <div class="title">
-        <h2>L'ESSENTIEL DE L'ITII</h2>
+        <h2>{{.Params.school.title}}</h2>
         <p>
-          Créé il y a 28 ans par l'Union des Industries et Métiers de la
-          Métallurgie (UIMM). Installé depuis la rentrée 2018 sur le Campus de
-          l'Espace à Vernon dans des locaux modernes et au coeur d'une zone
-          industrielle regroupant des entreprises prestigieuses
+          {{.Params.school.description}}
         </p>
       </div>
+      {{ range .Params.school.filiere}}
       <div class="col-md-3 col-sm-6 col-xs-6">
         <div class="block wow fadeInRight" data-wow-delay=".3s">
-          <i class="ion-code"></i>
-          <p class="count-text"><span class="counter-digit">Mécanique et Production</p>
-            <p>Filiere en apprentissage</p>
+          <i class="{{.icon}}"></i>
+          <p class="count-text"><span class="counter-digit">{{.name}}</p>
+            <p>{{.info}}</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-6">
-        <div class="block wow fadeInRight" data-wow-delay=".5s">
-          <i class="ion-compass"></i>
-          <p class="count-text"><span class="counter-digit">Logistique Industrielle</p>
-            <p>Filiere en apprentissage</p>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 col-xs-6">
-        <div class="block wow fadeInRight" data-wow-delay=".7s">
-          <i class="ion-compose"></i>
-          <p class="count-text">
-            <span class="counter-digit">Efficacité Energétique</span>
-          </p>
-          <p>Filiere en apprentissage</p>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 col-xs-6">
-        <div class="block wow fadeInRight" data-wow-delay=".9s">
-          <i class="ion-image"></i>
-          <p class="count-text">
-            <span class="counter-digit">Performance Industrielle</span>
-          </p>
-          <p>Filiere en apprentissage</p>
-        </div>
-      </div>
-      
+      {{end}}
     </div>
   </div>
 </section>
+
+<!-- <div class="visit-cta">
+  <div class="visit">
+    <a href="#" target="_blank" class="visit-btn">En savoir plus</a>
+  </div>
+</div> -->
+
