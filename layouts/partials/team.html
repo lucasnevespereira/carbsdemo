@@ -12,8 +12,8 @@
             <img src="{{.image | absURL }}" class="team-img" alt="{{.name}}" />
             <div class="team-overlay">
               <h3>{{.name}}<span>{{.designation}}</span></h3>
-              <span class="icon"><i class="ion-quote"></i></span>
-              <p>{{.content}}</p>
+              <!-- <span class="icon"><i class="ion-quote"></i></span> -->
+              <p>{{.content | markdownify}}</p>
             </div>
           </div>
         </div>

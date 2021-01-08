@@ -4,7 +4,7 @@
       <div class="col-md-12">
         <div class="title">
           <h2>{{.Params.about.title}}</h2>
-          <p>{{.Params.about.content}}</p>
+          <p>{{.Params.about.content | markdownify}}</p>
         </div>
       </div>
     </div>
