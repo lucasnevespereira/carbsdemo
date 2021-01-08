@@ -1,7 +1,7 @@
 ---
 title: Carbs Demo
 banner:
-  bg_image: "/images/fuel.jpg"
+  bg_image: "/uploads/fuel.jpg"
   bg_position: right
   title: Association Carbs Demo
   description: Carbs Démo a pour objectif de sensibiliser la population à l’utilisation
