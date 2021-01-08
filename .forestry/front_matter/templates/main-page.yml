@@ -133,3 +133,5 @@ fields:
     - type: text
       name: btn_label
       label: btn_label
+pages:
+- content/_index.md
