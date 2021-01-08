@@ -56,10 +56,25 @@ team:
       **_À la suite de ma licence, j’ai décidé de continuer pour intégrer l’ITII dans la formation Ingénieur Efficacité Énergétique._**
 
       **_L’Énergie est aujourd’hui au cœur de toutes les interrogations politiques, financières et administratives."_**
-  - name: Rui Santos
+  - name: Sequeira Thomas
     image: images/team/team1.jpg
-    designation: Administrador da Empresa
-    content: Lorem ipsum
+    designation: Apprenti Ingénieur
+    content: |-
+      **Age : 22 ans**
+
+      **Titulaire d’un BTS Fluide Énergie Domotique**
+
+      **Alternant chez SERT**
+
+      **(récemment racheté par ENGIE Cofely)**
+
+      **Apprenti chargé d’affaires en Génie Climatique**
+
+      **_"Je m’occupe de la gestion d’exécution de chantiers._**
+
+      **_J’ai choisi de continuer en école d’ingénieur pour aller plus loin dans mon domaine d’activité._**
+
+      **_Je vois donc dans ce projet l’opportunité de m’ouvrir à de nouvelles compétences."_**
   - name: Rui Santos
     image: images/team/team1.jpg
     designation: Administrador da Empresa
