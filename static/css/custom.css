@@ -51,6 +51,10 @@
   text-align: center;
 }
 
+#team .team-overlay p {
+  overflow: scroll;
+}
+
 @media (max-width: 768px) {
   .questionnaire .button {
     width: 70% !important;
