@@ -27,7 +27,7 @@
         <!--/map-->
       </div>
       <div class="col-md-6">
-        <form action="https://usebasin.com/f/a125261bc44c">
+        <form action="{{.Params.form.action}}" method="POST">
           <input type="text" class="form-control" required placeholder="Nom" />
           <input
             type="text"
