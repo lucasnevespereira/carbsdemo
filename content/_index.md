@@ -110,7 +110,7 @@ contact:
     frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"
     ></iframe>'
   form:
-    action: ''
+    action: https://usebasin.com/f/a125261bc44c
     btn_label: Envoyer
 
 ---
