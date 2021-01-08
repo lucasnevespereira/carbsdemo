@@ -52,7 +52,7 @@
 }
 
 #team .team-overlay {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 #team .team-overlay p {
