@@ -51,6 +51,10 @@
   text-align: center;
 }
 
+#team .team-overlay {
+  box-sizing: content-box;
+}
+
 #team .team-overlay p {
   overflow: scroll;
 }
