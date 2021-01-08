@@ -32,10 +32,17 @@ team:
   title: Notre équipe
   description: Nous sommes 4 étudiants
   team_member:
-  - name: Rui Santos
-    image: images/team/team1.jpg
-    designation: Administrador da Empresa
-    content: Lorem ipsum
+  - name: Rémi Ballériaux
+    image: "/uploads/remi.jpg"
+    designation: Chef de Projet
+    content: |-
+      **Age : 23 ans**
+
+      **Titulaire d'un BTS CIRA et d'une CPGE ATS**
+
+      **En alternance chez Iton Seine, ma mission principale est d'assurer la certification ISO 50001 version 2018.**
+
+      **_"Je me suis orienté vers une école d'ingénieur en efficacité énergétique car j'ai toujours été intéressé par l'énergie et l'impact de l'activité humaine sur notre environnement. Je cherche donc à contribuer à la mise en oeuvre de bâtiments BEPOS (autonome énergétiquement parlant) répondant à la future norme RT20."_**
   - name: Rui Santos
     image: images/team/team1.jpg
     designation: Administrador da Empresa
