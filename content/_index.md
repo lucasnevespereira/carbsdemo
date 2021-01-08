@@ -85,7 +85,7 @@ team:
 
       **_"Passionné de sport mécanique, je recherche toujours à améliorer mes performances et être le plus efficace possible pour relever les défis."_**
 school:
-  bg_image: "/images/school.jpeg"
+  bg_image: "/uploads/itii.jpg"
   title: L'ESSENTIEL DE L'ITII
   description: Créé il y a 28 ans par l'Union des Industries et Métiers de la Métallurgie
     (UIMM). Installé depuis la rentrée 2018 sur le Campus de l'Espace à Vernon dans
