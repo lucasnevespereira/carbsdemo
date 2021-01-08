@@ -43,10 +43,19 @@ team:
       **En alternance chez Iton Seine, ma mission principale est d'assurer la certification ISO 50001 version 2018.**
 
       **_"Je me suis orienté vers une école d'ingénieur en efficacité énergétique car j'ai toujours été intéressé par l'énergie et l'impact de l'activité humaine sur notre environnement. Je cherche donc à contribuer à la mise en oeuvre de bâtiments BEPOS (autonome énergétiquement parlant) répondant à la future norme RT20."_**
-  - name: Rui Santos
-    image: images/team/team1.jpg
-    designation: Administrador da Empresa
-    content: Lorem ipsum
+  - name: Julien Dinard
+    image: "/uploads/julien.jpg"
+    designation: ''
+    content: |-
+      **Age : 21**
+
+      **Titulaire d’un BTS Fluide énergie domotique ainsi que d'une licence universitaire Sciences de l’Ingénieur parcours Énergie et Développement Durable. Cela fait maintenant 3 ans que j'ai intégré l’entreprise ENGIE Cofely. Ma mission première est d’assurer un suivi technique et énergétique sur près de 3000 installations en Île-de-France.**
+
+      **_"Après deux années de BTS en tant que technicien de maintenance CVC durant lequel j’ai appris la technique, je me suis orienté sur une licence pour intégrer le service Énergétique d'Engie._**
+
+      **_À la suite de ma licence, j’ai décidé de continuer pour intégrer l’ITII dans la formation Ingénieur Efficacité Énergétique._**
+
+      **_L’Énergie est aujourd’hui au cœur de toutes les interrogations politiques, financières et administratives."_**
   - name: Rui Santos
     image: images/team/team1.jpg
     designation: Administrador da Empresa
